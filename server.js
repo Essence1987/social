@@ -1,6 +1,10 @@
 const express = require('express');
 const mongoose = require('mongoose');
-const routes = require('./routes/');
+const routes = require('./routes/api');
+const dotenv = require('dotenv');
+
+// Load environment variables from .env file
+dotenv.config();
 
 // Set up Express App
 const app = express();
@@ -17,8 +21,9 @@ mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/social', {
     useFindAndModify: false,
 });
 
-// Use Routes
-app.use('/api', routes);
+// Include API routes from api.js
+const apiRoutes = require('./routes/api');
+app.use('/api', apiRoutes);
 
 // Start Server
 app.listen(PORT, () => {
