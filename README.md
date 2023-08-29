@@ -31,7 +31,9 @@ This project provides a RESTful API for managing a social network platform. It a
 
 Once the application is running, you can use tools like Insomnia or Postman to interact with the API endpoints. Send HTTP requests to the appropriate routes to create, read, update, or delete users, thoughts, reactions, and friendships.
 
-For a demonstration, please watch the following video:
+For a demonstration, please watch the following video: [Link to Walkthrough Video](l./assets/Social.mp4){:target="_blank"} If the link does not work you can also view the Video from the assets folder labeled Social.mp4. 
+
+Relative links
 </br></br>
 
 # **Technology**
@@ -39,7 +41,8 @@ For a demonstration, please watch the following video:
 * Node.js
 * Express.js
 * MongoDB
-* Mongoose </br></br>
+* Mongoose
+* GitLfs (For storing large files such as the Walkthrough Video) </br></br>
 
 # **Database Schema**
 
