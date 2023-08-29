@@ -31,7 +31,7 @@ This project provides a RESTful API for managing a social network platform. It a
 
 Once the application is running, you can use tools like Insomnia or Postman to interact with the API endpoints. Send HTTP requests to the appropriate routes to create, read, update, or delete users, thoughts, reactions, and friendships.
 
-For a demonstration, please watch the following video: [Link to Walkthrough Video](./assets/Social.mp4){:target="_blank"} If the link does not work you can also view the Video from the assets folder labeled Social.mp4. 
+For a demonstration, please watch the following video: [Link to Walkthrough Video](./assets/Social.mp4) If the link does not work you can also view the Video from the assets folder labeled Social.mp4. 
 
 Relative links
 </br></br>
