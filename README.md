@@ -60,7 +60,7 @@ The database schema for this project consists of two main collections: `users` a
 * createdAt (Date)
 * reactions (Array of Objects representing reactions)</br></br>
 
-# **Test**
+# **Tests**
 
 No tests are currently implemented for this project.
 
