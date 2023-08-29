@@ -31,7 +31,8 @@ This project provides a RESTful API for managing a social network platform. It a
 
 Once the application is running, you can use tools like Insomnia or Postman to interact with the API endpoints. Send HTTP requests to the appropriate routes to create, read, update, or delete users, thoughts, reactions, and friendships.
 
-For a demonstration, please watch the following video:</br></br>
+For a demonstration, please watch the following video:
+</br></br>
 
 # **Technology**
 
